@@ -20,7 +20,7 @@ else:
                 elif i1==n11-1 and j1==n11-1:
                     if l1[i1-1][j1]==0 and l1[i1][j1-1]==0:
                         c1=c1+1
-                elif i1==n11-1 and l1[i1][j1-1]==0 and l1[i1][j1+1]==0 and l1[1i-1][j1]==0:
+                elif i1==n11-1 and l1[i1][j1-1]==0 and l1[i1][j1+1]==0 and l1[i1-1][j1]==0:
                     c1=c1+1
                 elif i1!=0 or i1!=n11-1 and (l1[i1][j1+1]==0 and l1[i1+1][j]==0 and l1[i1-1][j1]==0 and l1[i1][j1-1]==0):
                     c1=c1+1
